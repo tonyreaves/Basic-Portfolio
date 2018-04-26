@@ -5,59 +5,102 @@
       background-color: #4aaaa5;
       padding: 10px;
       float: left;
+      font-size: 36px;
   }
 
-header {
+.headClass {
     width: 100%;
-    background-color: orange;
-    height:80px;
+    background-color:#ebebeb;
+    height:56px;
     border: 1px;
     border-color: #4aaaa5;
     align-self: center;
     position:fixed;
+    border-bottom: 2px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    text-decoration: none;
+    text-align: right;
+    float: right;
+
 }
 
-#clearfix:after {
-        content: " ";
-        visibility: hidden;
-        display: block;
-        height: 0;
-        clear: both;
-}
-
-#wrapper {
-    width: 960px;
-    left: 50%;
+.me {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    float:left;
 }
 
 br {
     clear: both;
 }
 
-h2 {
-color:teal;
-
+.pageTitle {
+color: #4aaaa5;
+font-size: 30px;
 }
 
-nav {
+body {
+    background-image: url("images/light-grey-terrazzo.png");
+    /* Background pattern from Toptal Subtle Patterns */
+}
+
+#nav {
     font-family: Arial, Helvetica, sans-serif;
-    color: grey;
     text-decoration: none;
-    margin: 0;
-    padding-bottom: 20px;
-    padding-top: 30px;
     text-align: right;
     float: right;
+    padding-top: 20px;
+}
+
+a hover {
+    background-color: #555;
+    color: white;
 }
 
 #container {
-    width: 960px;
-    align-self: center;
-    background: white;
+    width: 495px;
+    background:#ffffff;
+    float:center;
+    margin: 0 auto; 
+    color: #fff;
+    min-height: 100%;
+    border: 2px solid #ffffff;
+    padding: 20px;
 }
 
 .line {
     width:100%; 
     height:1px; 
     background: #fff
+}
+
+.about {
+    float:left;
+    color:#777;
+    size: 18px;
+}
+
+.headWidth {
+    width: 495px;
+}
+
+.button {
+background-color:  #4aaaa5;
+color:#fff;
+}
+.formContainer {
+width: 495px;
+float: left;
+}
+.fields [type=text], select, textarea{
+   width: 100%;
+    padding: 12px; 
+    border: 1px solid #777; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
 }
