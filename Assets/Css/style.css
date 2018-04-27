@@ -26,10 +26,12 @@
 }
 
 .me {
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
     margin-right: 20px;
     margin-bottom: 20px;
     width: 200px;
     float:left;
+    font-size: 18px;
 }
 
 br {
@@ -110,6 +112,7 @@ float: left;
     margin-bottom: 16px; 
     resize: vertical;
     align-content: left;
+    width:493px;
 }
 
 .labelClass {
