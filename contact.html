@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <div id="container">
+<head>
 
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+</head>
+<body class="bodyclass">
+    <header class="headClass">
+            <div id="headWidth">
+                <h1>Tony Reaves</h1>
+                <div id="nav">
+                    <a href="index.html">About&nbsp;|&nbsp;</a>
+                    <a href="portfolio.html">Portfolio&nbsp;|&nbsp;</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </header>
+
+    <div id="container">
+<br><br><br><br>
 
             <h2 class="pageTitle">Contact</h2>
     
@@ -10,15 +28,18 @@
         <div class="formContainer">
                 <form action="action_page.php">
                 
-                    <label for="fname">Name</label>
-                    <input class="fields" type="text" id="fname" name="name" placeholder="Your name..">
-                <br>
-                    <label for="email">Email</label>
-                    <input class="fields" type="text" id="email" name="email" placeholder="Your email..">
-                <br>
-                    <label for="message">Message</label>
-                    <textarea class="fields" id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-                <br>
+                    <label class="labelClass" for="fname">Name</label>
+                    <br>
+                    <input class="fields" type="text" id="fname" name="name" placeholder="John Smith">
+                <br><br>
+                    <label class="labelClass" for="email">Email</label>
+                    <br>
+                    <input class="fields" type="text" id="email" name="email" placeholder="example@gmail.com">
+                <br><br>
+                    <label class="labelClass" for="message">Message</label>
+                    <br>
+                    <textarea class="fields" id="message" name="message" style="height:200px"></textarea>
+                <br><br>
                     <input class="button" type="submit" value="Submit">
                 
                 </form>
@@ -27,6 +48,9 @@
     
         </div>
 
-
-
+    </body>
+<footer>
+    <br><br>
+        Copyright @
+    </footer>
 </html>
