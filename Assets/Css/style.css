@@ -1,47 +1,17 @@
-  h1 {
-      color: white;
-      text-align: left;
-      font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
-      background-color: #4aaaa5;
-      padding: 10px;
-      float: left;
-      font-size: 36px;
-  }
+.about {
+    float:left;
+    color:#777;
+    size: 18px;
+}
 
-.headClass {
-    width: 100%;
-    background-color:#ebebeb;
-    height:56px;
-    border: 1px;
-    border-color: #4aaaa5;
-    align-self: center;
-    position:fixed;
-    border-bottom: 2px solid grey;
-    font-family: Arial, Helvetica, sans-serif;
+.anav {
     color: #777;
     text-decoration: none;
-    text-align: right;
-    float: right;
-
+    padding: 1px;
 }
 
-.me {
-    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    width: 200px;
-    float:left;
-    font-size: 18px;
-}
-
-br {
-    clear: both;
-}
-
-.pageTitle {
-color: #4aaaa5;
-font-size: 30px;
-text-align: left;
+article {
+    padding-bottom: 20px;
 }
 
 .bodyClass {
@@ -49,44 +19,8 @@ text-align: left;
     /* Background pattern from Toptal Subtle Patterns */
 }
 
-#nav {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    text-align: right;
-    float: right;
-    padding-top: 20px;
-}
-
-a hover {
-    background-color: #555;
-    color: white;
-}
-
-#container {
-    width: 495px;
-    background:#ffffff;
-    float:center;
-    margin: 0 auto; 
-    color: #fff;
-    min-height: 100%;
-    border: 2px solid #ffffff;
-    padding: 20px;
-}
-
-.line {
-    width:100%; 
-    height:1px; 
-    color: #777
-}
-
-.about {
-    float:left;
-    color:#777;
-    size: 18px;
-}
-
-.headWidth {
-    width: 495px;
+br {
+    clear: both;
 }
 
 .button {
@@ -95,89 +29,171 @@ color:#fff;
 padding: 10px 20px 10px 20px;
 }
 
+#container {
+    background:#ffffff;
+    border: 2px solid #ffffff;
+    color: #fff;
+    float:center;
+    margin: 0 auto; 
+    min-height: 100%;
+    padding: 20px;
+    width: 960px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
+    font-size: 36px;
+    padding: 10px;
+    text-align: left;
+  }
+
+.headClass {
+    align-self: center;
+    background-color:#ebebeb;
+    border: 1px;
+    border-bottom: 2px solid grey;
+    border-color: #4aaaa5;
+    color: #777;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    height:56px;
+    position:fixed;
+    text-decoration: none;
+    text-align: right;
+    width: 100%;
+
+}
+
+a:hover {
+    background-color: #4aaaa5;;
+    color: white;
+}
+
+.line {
+    color: #777;
+    height:1px; 
+    width:100%; 
+}
+
 .formContainer {
-width: 495px;
-float: left;
+    background:#ffffff;
+    border: 2px solid #ffffff;
+    color: #fff;
+    float:center;
+    margin: 0 auto; 
+    min-height: 100%;
+    padding: 20px;
+    width: 960px;
 }
 
 .fields [type=text], select, textarea{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    padding: 12px; 
+    align-content: left;
     border: 1px solid #777; 
-    color: #777;
     border-radius: 4px; 
     box-sizing: border-box; 
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px; 
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical;
-    align-content: left;
-    width:493px;
+    width: 960px;
+}
+
+#headWidth {
+    margin-left: 6%;
+    width: 80%;
 }
 
 .labelClass {
-    font-size: 18px;
-    text-align: left;
     color:#777;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.labelPhoto {
+    background: #4aaaa5;
+    bottom: 15px;
+    color: #ebebeb;
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
+    font-size: 18px;
+    padding: 15px;
+    position: absolute;
+    text-align: center;
+    width:195px;
+}
+
+.me {
+    float:left;
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+#nav {
+    color: #777;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.pageTitle {
+    color: #4aaaa5;
+    font-size: 30px;
+    text-align: left;
+    width: 960px;
 }
 
 #photo1 {
-    position:relative;
-    top: 10px;
     float: left;
+    margin: 10px;
+    position:relative;
 }
 
 #photo2 {
-    position: relative;
-    top: 10px;
-    left: 20px;
     float: left;
+    margin: 10px;
+    position: relative;
 }
 
 #photo3 {
     position: relative;
-    top: 20px;
+    margin: 10px;
     float: left;
 }
 
 #photo4 {
-    position: relative;
-    top: 20px;
-    left: 20px;
     float: left;
+    margin: 10px;
+    position: relative;
 }
 
 #photo5 {
-    position: relative;
-    top: 20px;
     float: left;
-}
-
-.labelPhoto {
-    font-family: 'Georgia', Times, 'Times New Roman', Times, serif, serif;
-    background: #4aaaa5;
-    color: #ebebeb;
-    text-align: center;
-    font-size: 18px;
-    bottom: 15px;
-    width:195px;
-    padding: 15px;
-    position: absolute;
-
+    margin: 10px;
+    position: relative;
+    /* I know this Lorem Pixel photo looks like a killer girl from a horror movie but I still kelp it. */
 }
 
 footer{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ebebeb;
-    width: 100%;
     background-color:#777;
-    bottom: 0;
-    position: absolute;
-    text-align: center;
-    height: 40px;
     border-top: 5px solid #4aaaa5;
+    bottom: 0;
+    clear:both;
+    color: #ebebeb;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     margin-top: -45px;
-    clear:both;
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
